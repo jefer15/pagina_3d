@@ -1,0 +1,1 @@
+@livewire('front.portfolio-component')

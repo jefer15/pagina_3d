@@ -1,0 +1,3 @@
+<div>
+    @dump($portfolios)
+</div>

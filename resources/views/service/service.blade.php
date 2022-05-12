@@ -1,0 +1,1 @@
+@livewire('front.service-component')
