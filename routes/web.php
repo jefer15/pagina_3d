@@ -25,6 +25,10 @@ Route::get('/service', function () {
     return view('service.service');
 });
 
+Route::get('/admin', function () {
+    return view('admin.admin');
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
