@@ -5,7 +5,7 @@ namespace App\Http\Livewire\Front;
 use Livewire\Component;
 use App\Models\portfolio;
 
-class PortfolioComponent extends Component
+class portfolioComponent extends Component
 {
     public function render()
     {
@@ -18,6 +18,6 @@ class PortfolioComponent extends Component
 
     public function index()
     {
-        return Portfolio::paginate(5);
+        return portfolio::paginate(5);
     }
 }

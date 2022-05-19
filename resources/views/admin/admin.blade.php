@@ -1,3 +1,5 @@
-@livewireStyles
+<x-app-layout>
+    {{-- @livewireStyles --}}
 @livewire('front.admin-component')
-@livewireScripts
+{{-- @livewireScripts --}}
+</x-app-layout>

@@ -145,7 +145,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Autoloaded Service Providers
+    | Autoloaded service Providers
     |--------------------------------------------------------------------------
     |
     | The service providers listed here will be automatically loaded on the
@@ -157,45 +157,45 @@ return [
     'providers' => [
 
         /*
-         * Laravel Framework Service Providers...
+         * Laravel Framework service Providers...
          */
-        Illuminate\Auth\AuthServiceProvider::class,
-        Illuminate\Broadcasting\BroadcastServiceProvider::class,
-        Illuminate\Bus\BusServiceProvider::class,
-        Illuminate\Cache\CacheServiceProvider::class,
-        Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
-        Illuminate\Cookie\CookieServiceProvider::class,
-        Illuminate\Database\DatabaseServiceProvider::class,
-        Illuminate\Encryption\EncryptionServiceProvider::class,
-        Illuminate\Filesystem\FilesystemServiceProvider::class,
-        Illuminate\Foundation\Providers\FoundationServiceProvider::class,
-        Illuminate\Hashing\HashServiceProvider::class,
-        Illuminate\Mail\MailServiceProvider::class,
-        Illuminate\Notifications\NotificationServiceProvider::class,
-        Illuminate\Pagination\PaginationServiceProvider::class,
-        Illuminate\Pipeline\PipelineServiceProvider::class,
-        Illuminate\Queue\QueueServiceProvider::class,
-        Illuminate\Redis\RedisServiceProvider::class,
-        Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
-        Illuminate\Session\SessionServiceProvider::class,
-        Illuminate\Translation\TranslationServiceProvider::class,
-        Illuminate\Validation\ValidationServiceProvider::class,
-        Illuminate\View\ViewServiceProvider::class,
+        Illuminate\Auth\AuthserviceProvider::class,
+        Illuminate\Broadcasting\BroadcastserviceProvider::class,
+        Illuminate\Bus\BusserviceProvider::class,
+        Illuminate\Cache\CacheserviceProvider::class,
+        Illuminate\Foundation\Providers\ConsoleSupportserviceProvider::class,
+        Illuminate\Cookie\CookieserviceProvider::class,
+        Illuminate\Database\DatabaseserviceProvider::class,
+        Illuminate\Encryption\EncryptionserviceProvider::class,
+        Illuminate\Filesystem\FilesystemserviceProvider::class,
+        Illuminate\Foundation\Providers\FoundationserviceProvider::class,
+        Illuminate\Hashing\HashserviceProvider::class,
+        Illuminate\Mail\MailserviceProvider::class,
+        Illuminate\Notifications\NotificationserviceProvider::class,
+        Illuminate\Pagination\PaginationserviceProvider::class,
+        Illuminate\Pipeline\PipelineserviceProvider::class,
+        Illuminate\Queue\QueueserviceProvider::class,
+        Illuminate\Redis\RedisserviceProvider::class,
+        Illuminate\Auth\Passwords\PasswordResetserviceProvider::class,
+        Illuminate\Session\SessionserviceProvider::class,
+        Illuminate\Translation\TranslationserviceProvider::class,
+        Illuminate\Validation\ValidationserviceProvider::class,
+        Illuminate\View\ViewserviceProvider::class,
 
         /*
-         * Package Service Providers...
+         * Package service Providers...
          */
 
         /*
-         * Application Service Providers...
+         * Application service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-        App\Providers\FortifyServiceProvider::class,
-        App\Providers\JetstreamServiceProvider::class,
+        App\Providers\AppserviceProvider::class,
+        App\Providers\AuthserviceProvider::class,
+        // App\Providers\BroadcastserviceProvider::class,
+        App\Providers\EventserviceProvider::class,
+        App\Providers\RouteserviceProvider::class,
+        App\Providers\FortifyserviceProvider::class,
+        App\Providers\JetstreamserviceProvider::class,
 
     ],
 

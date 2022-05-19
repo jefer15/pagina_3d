@@ -3,7 +3,7 @@
 namespace App\Http\Livewire\Front;
 
 use App\Models\Banner;
-use App\Models\Organization;
+use App\Models\organization;
 use Livewire\Component;
 
 class HomeComponent extends Component
@@ -14,7 +14,7 @@ class HomeComponent extends Component
             'livewire.front.home-component',
             [
                 'banners' => $this->index(),
-                'organizations' => $this->getOrganization(),
+                'organizations' => $this->getorganization(),
             ]
         );
     }
@@ -24,7 +24,7 @@ class HomeComponent extends Component
         return Banner::paginate(5);
     }
 
-    public function getOrganization()
+    public function getorganization()
     {
         return organization::paginate(5);
     }

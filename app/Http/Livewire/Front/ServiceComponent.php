@@ -3,9 +3,9 @@
 namespace App\Http\Livewire\Front;
 
 use Livewire\Component;
-use App\Models\Service;
+use App\Models\service;
 
-class ServiceComponent extends Component
+class serviceComponent extends Component
 {
     public function render()
     {
@@ -18,6 +18,6 @@ class ServiceComponent extends Component
 
     public function index()
     {
-        return Service::paginate(5);
+        return service::paginate(5);
     }
 }

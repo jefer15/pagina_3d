@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\serviceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class AppserviceProvider extends serviceProvider
 {
     /**
      * Register any application services.

@@ -1079,7 +1079,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Jenssegers\\Agent\\AgentServiceProvider"
+                        "Jenssegers\\Agent\\AgentserviceProvider"
                     ],
                     "aliases": {
                         "Agent": "Jenssegers\\Agent\\Facades\\Agent"
@@ -1162,7 +1162,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Laravel\\Fortify\\FortifyServiceProvider"
+                        "Laravel\\Fortify\\FortifyserviceProvider"
                     ]
                 }
             },
@@ -1406,7 +1406,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Laravel\\Jetstream\\JetstreamServiceProvider"
+                        "Laravel\\Jetstream\\JetstreamserviceProvider"
                     ]
                 }
             },
@@ -1471,7 +1471,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Laravel\\Sanctum\\SanctumServiceProvider"
+                        "Laravel\\Sanctum\\SanctumserviceProvider"
                     ]
                 }
             },
@@ -1597,7 +1597,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Laravel\\Tinker\\TinkerServiceProvider"
+                        "Laravel\\Tinker\\TinkerserviceProvider"
                     ]
                 }
             },
@@ -1998,7 +1998,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Livewire\\LivewireServiceProvider"
+                        "Livewire\\LivewireserviceProvider"
                     ],
                     "aliases": {
                         "Livewire": "Livewire\\Livewire"
@@ -2235,7 +2235,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Carbon\\Laravel\\ServiceProvider"
+                        "Carbon\\Laravel\\serviceProvider"
                     ]
                 },
                 "phpstan": {
@@ -5035,7 +5035,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Contracts\\Service\\": ""
+                    "Symfony\\Contracts\\service\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6036,7 +6036,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "Laravel\\Sail\\SailServiceProvider"
+                        "Laravel\\Sail\\SailserviceProvider"
                     ]
                 }
             },
@@ -6232,7 +6232,7 @@
                 },
                 "laravel": {
                     "providers": [
-                        "NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider"
+                        "NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionserviceProvider"
                     ]
                 }
             },
@@ -8245,7 +8245,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Spatie\\LaravelIgnition\\IgnitionServiceProvider"
+                        "Spatie\\LaravelIgnition\\IgnitionserviceProvider"
                     ],
                     "aliases": {
                         "Flare": "Spatie\\LaravelIgnition\\Facades\\Flare"

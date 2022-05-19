@@ -3,10 +3,10 @@
 namespace App\Providers;
 
 use App\Actions\Jetstream\DeleteUser;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\serviceProvider;
 use Laravel\Jetstream\Jetstream;
 
-class JetstreamServiceProvider extends ServiceProvider
+class JetstreamserviceProvider extends serviceProvider
 {
     /**
      * Register any application services.

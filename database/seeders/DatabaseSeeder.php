@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Banner;
-use App\Models\Organization;
-use App\Models\Portfolio;
+use App\Models\organization;
+use App\Models\portfolio;
 use App\Models\User;
 use App\Models\service;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -22,8 +22,8 @@ class DatabaseSeeder extends Seeder
     {
         User::factory(10)->create();
         Banner::factory(10)->create();
-        Organization::factory(10)->create();
-        Portfolio::factory(10)->create();
-        Service::factory(10)->create();
+        organization::factory(10)->create();
+        portfolio::factory(10)->create();
+        service::factory(10)->create();
     }
 }
